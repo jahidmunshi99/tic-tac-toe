@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+body {
+  background-color: #5e548e;
+  /* text-align: center; */
+}
+
+#hd {
+  margin: 30px;
+  margin-top: 30px;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  padding: 0 5rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.square {
+  height: 15vmin;
+  width: 15vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 4vmin;
+  color: #ff008c;
+  background-color: #231942;
+  margin: 6px;
+}
+
+#reset-btn {
+  margin: 30px;
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #231942;
+  border-radius: 1rem;
+  border: none;
+  color: #fff;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #231942;
+  border-radius: 1rem;
+  border: none;
+  color: #fff;
+}
+
+#msg {
+  color: #fff;
+  font-size: 8vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.hide2 {
+  display: inline;
+}
