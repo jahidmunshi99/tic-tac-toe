@@ -39,9 +39,6 @@ const Board = () => {
     <div className="board">
       <div className="container">
         <h1 className="text-center text-3xl font-bold">Tic Tac Toe</h1>
-        <p className="text-center">
-          This is where the game board will be displayed.
-        </p>
         {status}
         <div className="game-board flex flex-col items-center justify-center mt-10">
           {/* Game board will be rendered here */}
