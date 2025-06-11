@@ -1,6 +1,6 @@
-const Squore = ({ value, onSquareClick }) => {
+const Squore = ({ value, onSquare }) => {
   return (
-    <button onClick={onSquareClick} className="square cursor-pointer">
+    <button onClick={onSquare} className="square cursor-pointer">
       {value}
     </button>
   );
