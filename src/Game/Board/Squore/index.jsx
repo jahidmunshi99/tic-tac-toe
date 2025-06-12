@@ -1,4 +1,4 @@
-const Squore = ({ value, onSquare }) => {
+const Squares = ({ value, onSquare }) => {
   return (
     <button onClick={onSquare} className="square cursor-pointer">
       {value}
@@ -6,4 +6,4 @@ const Squore = ({ value, onSquare }) => {
   );
 };
 
-export default Squore;
+export default Squares;
